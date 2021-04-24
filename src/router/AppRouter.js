@@ -38,7 +38,7 @@ const AppRouter = () => {
                     />
                     <Route
                         render={(props) => (
-                            <ThirdStep {...props} user={user} />
+                            <ThirdStep {...props} user={user} updateUser={updateUser} resetUser={resetUser} />
                         )}
                         path="/third"
                     />
